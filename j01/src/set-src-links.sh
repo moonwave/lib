@@ -5,3 +5,5 @@ ln -s ${SRC}/glassfish-embedded-all-3.1.2.2-src.jar glassfish-embedded-all-3.1.2
 ln -s ${SRC}/hadoop-1.2.1-src.jar hadoop-1.2.1-src.jar
 ln -s ${SRC}/mongo-java-driver-3.2.2-src.jar mongo-java-driver-3.2.2-src.jar
 ln -s ${SRC}/jedis-2.9.0-sources.jar jedis-2.9.0-sources.jar
+
+ln -s ${SRC}/commons-lang3-3.8.1-sources.jar commons-lang3-3.8.1-sources.jar
