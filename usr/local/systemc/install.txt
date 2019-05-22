@@ -1,4 +1,22 @@
-# https://www.youtube.com/watch?v=rLBScPm_bis
+# https://blog.brilacasck.ir/index.php/2018/07/18/how-to-easily-install-system-c-on-ubuntu/
+
+$ sudo mkdir -p /usr/local/systemc-2.3.3/
+$ cd ~/Downloads/systemc-2.3.3
+$ mkdir objdir
+$ cd objdir
+
+In current objdir do this command:
+
+$ sudo ../configure --prefix=/usr/local/systemc-2.3.3/
+$ sudo make
+$ sudo make install
+
+$ cd /usr/local
+$ sudo ln -s systemc-2.3.3 systemc
+
+#	#	#	#	#	#	#
+# https://www.youtube.com/watch?v=rLBScPm_bis	#
+
 Download at https://www.accellera.org/downloads/standards/systemc
     SystemC 2.3.3 (Includes TLM)  Core SystemC Language and Examples (tar.gz)
 
